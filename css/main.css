@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    background-color: #02010a;
+
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.bloque1 {
+    background-color: #5b7989;
+    min-height: 10px;
+    height:60px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding-left: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bloque1 .titulo {
+    width: 50%;
+    text-align: left;
+    text-shadow: 12px 2px 2px  #02010a;
+    color: white;   
+    margin-top: 10;
+  
+}
+
+#menu-header{
+    width: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    text-shadow: 2px 2px 2px  #02010a;
+    color: white;   
+    /* overflow: hidden; */    
+}
+
+ul {
+    margin: 0;
+}
+
+#menu-header li {
+    float: right;
+    padding: 16px;
+    list-style-type: none;
+  }
+
+  li a {
+     color: white;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  footer{
+    width: 100%;
+}
+
+.menu-footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+    /* overflow: hidden; */        
+}
+
+.columna1 {
+    width: 25%;
+    }
+    .columna2 {
+    width: 25%;
+    }
+    .columna3 {
+        width: 25%;
+    }
+    .columna4 {
+        width: 25%;
+    }
+
+    
+    .s3 {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #C6d5c5;
+    }
+
+   /** Movil **/
+   @media all and (max-width : 900px) {
+	.contenido {
+		width: 100%;
+    }
+    
+    .bloque1 .titulo {
+        width: 100%;
+    }
+    .bloque1 {
+        text-align: center;
+        height:180px;
+    }
+    #menu-header {
+        width: 100%;
+        text-align: center !important;        
+    }
+    ul {
+        text-align: center;
+    }
+    #menu-header li {
+        float: center;
+      
+      }
+
+      .columna1 {
+        width: 100%;
+    }
+    .columna2 {
+      width: 100%;
+    }
+    .columna3 {
+        width: 100%;
+    }
+    .columna4 {
+        width: 100%;
+    }
+
+     
+  }
